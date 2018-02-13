@@ -11,7 +11,7 @@ import logging
 import sys
 import time
 
-BUNDLE="./zopenstack/bundles/lpar/bundle.yaml"
+BUNDLE="./bundle.yaml"
 jujumanual = jujumanual("manual/10.245.162.222", "s390x_pike", bundle=BUNDLE)
 
 # For Reference
