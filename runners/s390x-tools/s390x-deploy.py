@@ -28,7 +28,7 @@ jujumanual = jujumanual("manual/10.245.162.222", "s390x_pike", bundle=BUNDLE)
 
 
 def main():
-    jujumanual.deploy()
+    jujumanual.deploybundle()
 
 if __name__ == "__main__":
     sys.exit(main())
